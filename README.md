@@ -1,16 +1,23 @@
-## Hi there 👋
+# Hi, I'm Skriipt 👋
 
-<!--
-**Skriipt/Skriipt** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+I build practical tools and automations around **Smart Home**, **Python**, and **AI** — always looking for useful ideas that make everyday life a little simpler.
 
-Here are some ideas to get you started:
+## What I enjoy working on
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+- 🏠 Smart Home integrations and Home Assistant
+- ⚙️ Automation, self-hosting, and practical tooling
+- 🐍 Python projects and APIs
+- 🤖 Exploring applied AI
+- 📚 Learning new technologies and turning ideas into useful projects
+
+## Featured projects
+
+- [Eufy Smart Scale BLE](https://github.com/Skriipt/eufy-smart-scale-ble)  
+  A local, cloud-free Home Assistant integration for the Eufy Smart Scale P3.
+
+- [Studydrive PDF Downloader](https://github.com/Skriipt/studydrive-pdfdownloader)  
+  A small JavaScript utility project.
+
+## Currently exploring
+
+Building useful, reliable automations and learning more about AI-powered tools.
