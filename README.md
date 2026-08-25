@@ -1,6 +1,6 @@
 # Hi, I'm Skriipt 👋
 
-I build practical tools and automations around **Smart Home**, **Python**, and **AI** — always looking for useful ideas that make everyday life a little simpler.
+I build practical tools and automations around **Smart Home**, **Python**, and **AI** always looking for useful ideas that make everyday life a little simpler.
 
 ## What I enjoy working on
 
