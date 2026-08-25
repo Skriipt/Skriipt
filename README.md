@@ -18,7 +18,7 @@ I build practical tools and automations around **Smart Home**, **Python**, and *
 - [Studydrive PDF Downloader](https://github.com/Skriipt/studydrive-pdfdownloader)  
   A small JavaScript utility project.
 
-  Most of my current experiments, personal automations, and self-hosted projects live in private repositories.
+Most of my current experiments, personal automations, and self-hosted projects live in private repositories.
 
 ## Currently exploring
 
