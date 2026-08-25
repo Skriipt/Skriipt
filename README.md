@@ -13,10 +13,12 @@ I build practical tools and automations around **Smart Home**, **Python**, and *
 ## Featured projects
 
 - [Eufy Smart Scale BLE](https://github.com/Skriipt/eufy-smart-scale-ble)  
-  A local, cloud-free Home Assistant integration for the Eufy Smart Scale P3.
+  A local, cloud-free Home Assistant integration for supported Eufy Smart Scales..
 
 - [Studydrive PDF Downloader](https://github.com/Skriipt/studydrive-pdfdownloader)  
   A small JavaScript utility project.
+
+  Most of my current experiments, personal automations, and self-hosted projects live in private repositories.
 
 ## Currently exploring
 
