@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="title desc">
+  <title id="title">Hi, I'm Skriipt.</title>
+  <desc id="desc">A quiet typographic introduction in pale lilac and warm white on ink. The paired square marks echo the two i letters in Skriipt.</desc>
+  <rect width="1200" height="300" rx="20" fill="#171821"/>
+  <g id="introduction" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">
+    <text x="64" y="80" font-size="38" fill="#bcb9ce">Hi, I'm</text>
+    <text x="56" y="236" font-size="170" font-weight="700" letter-spacing="-8" fill="#f5f3ee">Skriipt<tspan fill="#c4b5fd">.</tspan></text>
+  </g>
+  <g id="name-echo" fill="#c4b5fd" aria-hidden="true">
+    <rect x="1038" y="64" width="26" height="26" rx="5"/>
+    <rect x="1080" y="64" width="26" height="26" rx="5"/>
+  </g>
+</svg>

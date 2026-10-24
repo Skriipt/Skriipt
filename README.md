@@ -1,25 +1,27 @@
-# Hi, I'm Skriipt 👋
+<p>
+  <img src="./assets/readme/hero.svg" width="100%" alt="Hi, I'm Skriipt.">
+</p>
 
-I build practical tools and automations around Smart Home, Python, and AI always looking for useful ideas that make everyday life a little simpler.
+I build practical tools and automations that make everyday life a little simpler.
+I work with **Home Assistant, Python, and applied AI**.
 
-## What I work on
+## A few things I've built
 
-- 🏠 Smart Home integrations and Home Assistant
-- ⚙️ Automation, self-hosting, and practical tools
-- 🐍 Python projects and APIs
-- 🤖 Applied AI
-- 📚 Learning new technologies and turning ideas into projects
+### [Eufy Smart Scale BLE](https://github.com/Skriipt/eufy-smart-scale-ble)
 
-## Featured projects
+Bring supported Eufy scale measurements into Home Assistant over local Bluetooth. No Eufy account or cloud required.
 
-- [Eufy Smart Scale BLE](https://github.com/Skriipt/eufy-smart-scale-ble)  
-  A local, cloud-free Home Assistant integration for supported Eufy Smart Scales.
+**Home Assistant · Bluetooth · Python**
 
-- [Studydrive PDF Downloader](https://github.com/Skriipt/studydrive-pdfdownloader)  
-  A small JavaScript utility project.
+### [Studydrive PDF Downloader](https://github.com/Skriipt/studydrive-pdfdownloader)
 
-Most of my experiments, personal automations, and self-hosted projects are in private repositories.
+A Chromium extension that saves the PDF preview already loaded on Studydrive. The preview may contain fewer pages than the full document.
 
-## Currently exploring
+**Browser extension · JavaScript · PDF**
 
-Reliable automations and AI-powered tools.
+## What keeps me curious
+
+Reliable automations, self-hosting, APIs, and useful applications of AI.
+I like learning by turning an idea into something I can use.
+
+Most of my experiments and personal automations live in private repositories.
