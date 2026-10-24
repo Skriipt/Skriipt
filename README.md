@@ -15,7 +15,7 @@ Bring supported Eufy scale measurements into Home Assistant over local Bluetooth
 
 ### [Studydrive PDF Downloader](https://github.com/Skriipt/studydrive-pdfdownloader)
 
-A Chromium extension that saves the PDF preview already loaded on Studydrive. The preview may contain fewer pages than the full document.
+A Chromium extension that saves the PDF preview already loaded on Studydrive.
 
 **Browser extension · JavaScript · PDF**
 
