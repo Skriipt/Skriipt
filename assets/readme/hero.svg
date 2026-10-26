@@ -1,13 +1,90 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="title desc">
   <title id="title">Hi, I'm Skriipt.</title>
-  <desc id="desc">A quiet typographic introduction in pale lilac and warm white on ink. The paired square marks echo the two i letters in Skriipt.</desc>
+  <desc id="desc">Animated introduction on ink: the name Skriipt is set in warm white, two lilac squares drop in to become the dots of the two i letters, and a marker steps through the topics Smart Home, Automation, Python and Applied AI.</desc>
+  <style>
+@keyframes stage{0.0%{opacity:1} 93.636%{opacity:1} 99.091%{opacity:0} 100.0%{opacity:0}}
+@keyframes hi{0.0%{opacity:0;transform:translate(-10px,0px)} 0.909%{opacity:0;transform:translate(-10px,0px);animation-timing-function:cubic-bezier(.22,.8,.3,1)} 7.273%{opacity:1;transform:translate(0,0)} 100.0%{opacity:1;transform:translate(0,0)}}
+@keyframes g0{0.0%{opacity:0;transform:translate(0px,18px)} 2.273%{opacity:0;transform:translate(0px,18px);animation-timing-function:cubic-bezier(.22,.8,.3,1)} 9.545%{opacity:1;transform:translate(0,0)} 100.0%{opacity:1;transform:translate(0,0)}}
+@keyframes g1{0.0%{opacity:0;transform:translate(0px,18px)} 3.091%{opacity:0;transform:translate(0px,18px);animation-timing-function:cubic-bezier(.22,.8,.3,1)} 10.364%{opacity:1;transform:translate(0,0)} 100.0%{opacity:1;transform:translate(0,0)}}
+@keyframes g2{0.0%{opacity:0;transform:translate(0px,18px)} 3.909%{opacity:0;transform:translate(0px,18px);animation-timing-function:cubic-bezier(.22,.8,.3,1)} 11.182%{opacity:1;transform:translate(0,0)} 100.0%{opacity:1;transform:translate(0,0)}}
+@keyframes g3{0.0%{opacity:0;transform:translate(0px,18px)} 4.727%{opacity:0;transform:translate(0px,18px);animation-timing-function:cubic-bezier(.22,.8,.3,1)} 12.0%{opacity:1;transform:translate(0,0)} 100.0%{opacity:1;transform:translate(0,0)}}
+@keyframes g4{0.0%{opacity:0;transform:translate(0px,18px)} 5.545%{opacity:0;transform:translate(0px,18px);animation-timing-function:cubic-bezier(.22,.8,.3,1)} 12.818%{opacity:1;transform:translate(0,0)} 100.0%{opacity:1;transform:translate(0,0)}}
+@keyframes g5{0.0%{opacity:0;transform:translate(0px,18px)} 6.364%{opacity:0;transform:translate(0px,18px);animation-timing-function:cubic-bezier(.22,.8,.3,1)} 13.636%{opacity:1;transform:translate(0,0)} 100.0%{opacity:1;transform:translate(0,0)}}
+@keyframes g6{0.0%{opacity:0;transform:translate(0px,18px)} 7.182%{opacity:0;transform:translate(0px,18px);animation-timing-function:cubic-bezier(.22,.8,.3,1)} 14.455%{opacity:1;transform:translate(0,0)} 100.0%{opacity:1;transform:translate(0,0)}}
+@keyframes g7{0.0%{opacity:0;transform:translate(0px,18px)} 8.0%{opacity:0;transform:translate(0px,18px);animation-timing-function:cubic-bezier(.22,.8,.3,1)} 15.273%{opacity:1;transform:translate(0,0)} 100.0%{opacity:1;transform:translate(0,0)}}
+@keyframes dot0{0.0%{opacity:0;transform:translate(0px,-46px)} 13.636%{opacity:0;transform:translate(0px,-46px);animation-timing-function:cubic-bezier(.22,.8,.3,1)} 20.0%{opacity:1;transform:translate(0,0)} 100.0%{opacity:1;transform:translate(0,0)}}
+@keyframes dot1{0.0%{opacity:0;transform:translate(0px,-46px)} 17.273%{opacity:0;transform:translate(0px,-46px);animation-timing-function:cubic-bezier(.22,.8,.3,1)} 23.636%{opacity:1;transform:translate(0,0)} 100.0%{opacity:1;transform:translate(0,0)}}
+@keyframes row0{0.0%{opacity:0;transform:translate(14px,0px)} 11.818%{opacity:0;transform:translate(14px,0px);animation-timing-function:cubic-bezier(.22,.8,.3,1)} 18.182%{opacity:1;transform:translate(0,0)} 100.0%{opacity:1;transform:translate(0,0)}}
+@keyframes row1{0.0%{opacity:0;transform:translate(14px,0px)} 12.909%{opacity:0;transform:translate(14px,0px);animation-timing-function:cubic-bezier(.22,.8,.3,1)} 19.273%{opacity:1;transform:translate(0,0)} 100.0%{opacity:1;transform:translate(0,0)}}
+@keyframes row2{0.0%{opacity:0;transform:translate(14px,0px)} 14.0%{opacity:0;transform:translate(14px,0px);animation-timing-function:cubic-bezier(.22,.8,.3,1)} 20.364%{opacity:1;transform:translate(0,0)} 100.0%{opacity:1;transform:translate(0,0)}}
+@keyframes row3{0.0%{opacity:0;transform:translate(14px,0px)} 15.091%{opacity:0;transform:translate(14px,0px);animation-timing-function:cubic-bezier(.22,.8,.3,1)} 21.455%{opacity:1;transform:translate(0,0)} 100.0%{opacity:1;transform:translate(0,0)}}
+@keyframes marker{0.0%{opacity:0;transform:translate(14px,0px)} 11.818%{opacity:0;transform:translate(14px,0px);animation-timing-function:cubic-bezier(.22,.8,.3,1)} 18.182%{opacity:1;transform:translate(0,0)} 100.0%{opacity:1;transform:translate(0,0)}}
+@keyframes marker-move{0.0%{transform:translateY(0)} 28.636%{transform:translateY(0px);animation-timing-function:cubic-bezier(.22,.8,.3,1)} 32.727%{transform:translateY(52px)} 45.909%{transform:translateY(52px);animation-timing-function:cubic-bezier(.22,.8,.3,1)} 50.0%{transform:translateY(104px)} 63.182%{transform:translateY(104px);animation-timing-function:cubic-bezier(.22,.8,.3,1)} 67.273%{transform:translateY(156px)} 100.0%{transform:translateY(156px)}}
+@keyframes hl0{0.0%{fill:#f5f3ee} 28.636%{fill:#f5f3ee;animation-timing-function:cubic-bezier(.22,.8,.3,1)} 32.727%{fill:#9390aa} 100.0%{fill:#9390aa}}
+@keyframes hl1{0.0%{fill:#9390aa} 28.636%{fill:#9390aa;animation-timing-function:cubic-bezier(.22,.8,.3,1)} 32.727%{fill:#f5f3ee} 45.909%{fill:#f5f3ee;animation-timing-function:cubic-bezier(.22,.8,.3,1)} 50.0%{fill:#9390aa} 100.0%{fill:#9390aa}}
+@keyframes hl2{0.0%{fill:#9390aa} 45.909%{fill:#9390aa;animation-timing-function:cubic-bezier(.22,.8,.3,1)} 50.0%{fill:#f5f3ee} 63.182%{fill:#f5f3ee;animation-timing-function:cubic-bezier(.22,.8,.3,1)} 67.273%{fill:#9390aa} 100.0%{fill:#9390aa}}
+@keyframes hl3{0.0%{fill:#9390aa} 63.182%{fill:#9390aa;animation-timing-function:cubic-bezier(.22,.8,.3,1)} 67.273%{fill:#f5f3ee} 100.0%{fill:#f5f3ee}}
+.s{animation:stage 11.0s linear infinite}
+.a{opacity:0}
+#hi{animation:hi 11.0s linear infinite;}
+#g0{animation:g0 11.0s linear infinite;}
+#g1{animation:g1 11.0s linear infinite;}
+#g2{animation:g2 11.0s linear infinite;}
+#g3{animation:g3 11.0s linear infinite;}
+#g4{animation:g4 11.0s linear infinite;}
+#g5{animation:g5 11.0s linear infinite;}
+#g6{animation:g6 11.0s linear infinite;}
+#g7{animation:g7 11.0s linear infinite;}
+#dot0{animation:dot0 11.0s linear infinite;}
+#dot1{animation:dot1 11.0s linear infinite;}
+#row0{animation:row0 11.0s linear infinite;}
+#row1{animation:row1 11.0s linear infinite;}
+#row2{animation:row2 11.0s linear infinite;}
+#row3{animation:row3 11.0s linear infinite;}
+#marker-in{animation:marker 11.0s linear infinite;}
+#marker-move{animation:marker-move 11.0s linear infinite;}
+#label0{animation:hl0 11.0s linear infinite;}
+#label1{animation:hl1 11.0s linear infinite;}
+#label2{animation:hl2 11.0s linear infinite;}
+#label3{animation:hl3 11.0s linear infinite;}
+@media (prefers-reduced-motion:reduce){.s,.s *{animation:none!important}}
+  </style>
   <rect width="1200" height="300" rx="20" fill="#171821"/>
-  <g id="introduction" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">
-    <text x="64" y="80" font-size="38" fill="#bcb9ce">Hi, I'm</text>
-    <text x="56" y="236" font-size="170" font-weight="700" letter-spacing="-8" fill="#f5f3ee">Skriipt<tspan fill="#c4b5fd">.</tspan></text>
-  </g>
-  <g id="name-echo" fill="#c4b5fd" aria-hidden="true">
-    <rect x="1038" y="64" width="26" height="26" rx="5"/>
-    <rect x="1080" y="64" width="26" height="26" rx="5"/>
+  <g class="s" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">
+    <text id="hi" x="64" y="80" font-size="38" fill="#bcb9ce">Hi, I'm</text>
+    <g id="name" fill="#f5f3ee" aria-hidden="true">
+      <path id="g0" d="M162.748046875 202.298828125Q162.748046875 210.267578125 159.8427734375 216.78369140625Q156.9375 223.2998046875 150.83642578125 227.9482421875Q144.7353515625 232.5966796875 135.23095703125 235.12841796875Q125.7265625 237.66015625 112.611328125 237.66015625Q100.990234375 237.66015625 92.1083984375 235.5849609375Q83.2265625 233.509765625 76.87646484375 229.4423828125Q70.5263671875 225.375 66.58349609375 219.35693359375Q62.640625 213.3388671875 60.8974609375 205.5361328125L84.5546875 201.634765625Q85.55078125 205.5361328125 87.4599609375 208.7734375Q89.369140625 212.0107421875 92.73095703125 214.37646484375Q96.0927734375 216.7421875 101.11474609375 218.02880859375Q106.13671875 219.3154296875 113.275390625 219.3154296875Q125.7265625 219.3154296875 132.32568359375 215.53857421875Q138.9248046875 211.76171875 138.9248046875 203.7099609375Q138.9248046875 198.8955078125 136.2685546875 195.82421875Q133.6123046875 192.7529296875 129.212890625 190.7607421875Q124.8134765625 188.7685546875 119.0859375 187.4404296875Q113.3583984375 186.1123046875 107.1328125 184.8671875Q102.15234375 183.705078125 97.171875 182.4599609375Q92.19140625 181.21484375 87.66748046875 179.4716796875Q83.1435546875 177.728515625 79.2421875 175.3212890625Q75.3408203125 172.9140625 72.47705078125 169.38623046875Q69.61328125 165.8583984375 67.99462890625 161.126953125Q66.3759765625 156.3955078125 66.3759765625 150.00390625Q66.3759765625 141.2880859375 69.8623046875 135.0625Q73.3486328125 128.8369140625 79.53271484375 124.89404296875Q85.716796875 120.951171875 94.2666015625 119.125Q102.81640625 117.298828125 112.943359375 117.298828125Q124.3984375 117.298828125 132.57470703125 119.08349609375Q140.7509765625 120.8681640625 146.27099609375 124.5205078125Q151.791015625 128.1728515625 154.98681640625 133.69287109375Q158.1826171875 139.212890625 159.6767578125 146.6005859375L135.9365234375 149.837890625Q134.1103515625 142.2841796875 128.50732421875 138.4658203125Q122.904296875 134.6474609375 112.4453125 134.6474609375Q105.970703125 134.6474609375 101.69580078125 135.76806640625Q97.4208984375 136.888671875 94.88916015625 138.7978515625Q92.357421875 140.70703125 91.2783203125 143.23876953125Q90.19921875 145.7705078125 90.19921875 148.5927734375Q90.19921875 152.9091796875 92.2744140625 155.68994140625Q94.349609375 158.470703125 98.0849609375 160.33837890625Q101.8203125 162.2060546875 107.00830078125 163.49267578125Q112.1962890625 164.779296875 118.421875 166.107421875Q123.900390625 167.26953125 129.2958984375 168.55615234375Q134.69140625 169.8427734375 139.5888671875 171.5859375Q144.486328125 173.3291015625 148.7197265625 175.8193359375Q152.953125 178.3095703125 156.06591796875 181.92041015625Q159.1787109375 185.53125 160.96337890625 190.51171875Q162.748046875 195.4921875 162.748046875 202.298828125Z"/>
+      <path id="g1" d="M230.6171875 236.0 206.6279296875 195.326171875 196.583984375 202.298828125V236.0H173.2587890625V112.81640625H196.583984375V183.373046875L228.625 146.185546875H253.693359375L222.150390625 181.21484375L256.1005859375 236.0Z"/>
+      <path id="g2" d="M259.8046875 236.0V167.26953125Q259.8046875 164.3642578125 259.76318359375 161.126953125Q259.7216796875 157.8896484375 259.59716796875 154.94287109375Q259.47265625 151.99609375 259.3896484375 149.63037109375Q259.306640625 147.2646484375 259.140625 146.185546875H281.38671875Q281.552734375 147.181640625 281.71875 149.63037109375Q281.884765625 152.0791015625 282.05078125 154.984375Q282.216796875 157.8896484375 282.34130859375 160.75341796875Q282.4658203125 163.6171875 282.4658203125 165.3603515625H282.7978515625Q284.541015625 160.462890625 286.2841796875 156.60302734375Q288.02734375 152.7431640625 290.39306640625 150.04541015625Q292.7587890625 147.34765625 296.0791015625 145.89501953125Q299.3994140625 144.4423828125 304.296875 144.4423828125Q306.3720703125 144.4423828125 308.40576171875 144.81591796875Q310.439453125 145.189453125 311.5185546875 145.6875V165.1943359375Q309.27734375 164.6962890625 306.99462890625 164.32275390625Q304.7119140625 163.94921875 301.5576171875 163.94921875Q292.841796875 163.94921875 287.98583984375 171.0048828125Q283.1298828125 178.060546875 283.1298828125 191.9228515625V236.0Z"/>
+      <path id="g3" d="M318.1279296875 236.0V146.185546875H341.453125V236.0Z"/>
+      <path id="g4" d="M357.359375 236.0V146.185546875H380.6845703125V236.0Z"/>
+      <path id="g5" d="M481.4248046875 190.677734375Q481.4248046875 200.8876953125 479.39111328125 209.5205078125Q477.357421875 218.1533203125 473.1240234375 224.37890625Q468.890625 230.6044921875 462.37451171875 234.13232421875Q455.8583984375 237.66015625 446.9765625 237.66015625Q442.9921875 237.66015625 439.04931640625 236.830078125Q435.1064453125 236.0 431.537109375 234.13232421875Q427.9677734375 232.2646484375 424.93798828125 229.23486328125Q421.908203125 226.205078125 419.75 221.72265625H419.251953125Q419.3349609375 222.1376953125 419.41796875 223.7978515625Q419.5009765625 225.4580078125 419.583984375 227.65771484375Q419.6669921875 229.857421875 419.70849609375 232.30615234375Q419.75 234.7548828125 419.75 236.830078125V271.2783203125H396.4248046875V166.8544921875Q396.4248046875 159.96484375 396.21728515625 154.5693359375Q396.009765625 149.173828125 395.7607421875 146.185546875H418.421875Q418.587890625 146.7666015625 418.79541015625 148.4267578125Q419.0029296875 150.0869140625 419.12744140625 152.2451171875Q419.251953125 154.4033203125 419.3349609375 156.7275390625Q419.41796875 159.0517578125 419.41796875 160.794921875H419.75Q423.9833984375 151.9130859375 431.37109375 148.0947265625Q438.7587890625 144.2763671875 448.470703125 144.2763671875Q457.0205078125 144.2763671875 463.24609375 147.7626953125Q469.4716796875 151.2490234375 473.49755859375 157.3916015625Q477.5234375 163.5341796875 479.47412109375 172.04248046875Q481.4248046875 180.55078125 481.4248046875 190.677734375ZM457.103515625 190.677734375Q457.103515625 175.3212890625 452.455078125 167.89208984375Q447.806640625 160.462890625 438.5927734375 160.462890625Q435.1064453125 160.462890625 431.66162109375 161.91552734375Q428.216796875 163.3681640625 425.51904296875 166.89599609375Q422.8212890625 170.423828125 421.11962890625 176.35888671875Q419.41796875 182.2939453125 419.41796875 191.341796875Q419.41796875 200.140625 421.078125 205.99267578125Q422.73828125 211.8447265625 425.43603515625 215.3310546875Q428.1337890625 218.8173828125 431.537109375 220.27001953125Q434.9404296875 221.72265625 438.4267578125 221.72265625Q442.9091796875 221.72265625 446.3955078125 219.93798828125Q449.8818359375 218.1533203125 452.24755859375 214.37646484375Q454.61328125 210.599609375 455.8583984375 204.7060546875Q457.103515625 198.8125 457.103515625 190.677734375Z"/>
+      <path id="g6" d="M515.2607421875 237.494140625Q504.9677734375 237.494140625 499.40625 231.89111328125Q493.8447265625 226.2880859375 493.8447265625 214.916015625V161.95703125H482.47265625V146.185546875H495.0068359375L502.3115234375 125.1015625H516.9208984375V146.185546875H533.9375V161.95703125H516.9208984375V208.607421875Q516.9208984375 215.1650390625 519.4111328125 218.27783203125Q521.9013671875 221.390625 527.130859375 221.390625Q529.2890625 221.390625 531.0322265625 221.05859375Q532.775390625 220.7265625 534.93359375 220.228515625V234.671875Q530.6171875 236.0830078125 525.802734375 236.78857421875Q520.98828125 237.494140625 515.2607421875 237.494140625Z"/>
+      <path id="g7" fill="#c4b5fd" d="M540.546875 236.0V210.6826171875H564.5361328125V236.0Z"/>
+    </g>
+    <g id="i-dots" fill="#c4b5fd" aria-hidden="true">
+      <rect id="dot0" x="314.8" y="110" width="30" height="30" rx="5"/>
+      <rect id="dot1" x="354.0" y="110" width="30" height="30" rx="5"/>
+    </g>
+    <path d="M700 52V252" stroke="#2a2b3a" stroke-width="2" aria-hidden="true"/>
+    <g id="topics">
+      <g id="marker"><g id="marker-in"><g id="marker-move"><rect x="760" y="58" width="22" height="22" rx="4" fill="#c4b5fd"/></g></g></g>
+      <g id="row0">
+        <text x="806" y="80" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="20" fill="#9390aa">01</text>
+        <text id="label0" x="852" y="80" font-size="34" font-weight="600" fill="#f5f3ee">Smart Home</text>
+      </g>
+      <g id="row1">
+        <text x="806" y="132" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="20" fill="#9390aa">02</text>
+        <text id="label1" x="852" y="132" font-size="34" font-weight="600" fill="#9390aa">Automation</text>
+      </g>
+      <g id="row2">
+        <text x="806" y="184" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="20" fill="#9390aa">03</text>
+        <text id="label2" x="852" y="184" font-size="34" font-weight="600" fill="#9390aa">Python</text>
+      </g>
+      <g id="row3">
+        <text x="806" y="236" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="20" fill="#9390aa">04</text>
+        <text id="label3" x="852" y="236" font-size="34" font-weight="600" fill="#9390aa">Applied AI</text>
+      </g>
+    </g>
   </g>
 </svg>

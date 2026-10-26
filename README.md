@@ -1,5 +1,5 @@
 <p>
-  <img src="./assets/readme/hero.svg" width="100%" alt="Hi, I'm Skriipt.">
+  <img src="./assets/readme/hero.svg" width="100%" alt="Hi, I'm Skriipt. Smart Home, Automation, Python, Applied AI.">
 </p>
 
 I build practical tools and automations that make everyday life a little simpler.
@@ -18,6 +18,12 @@ Bring supported Eufy scale measurements into Home Assistant over local Bluetooth
 A Chromium extension that saves the PDF preview already loaded on Studydrive.
 
 **Browser extension · JavaScript · PDF**
+
+### [Twitch Stream Replacer](https://github.com/Skriipt/twitch-stream-replacer)
+
+Watch YouTube livestreams on Twitch while keeping the native Twitch chat.
+
+**Browser · JavaScript · Streaming**
 
 ## What keeps me curious
 
